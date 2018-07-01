@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/u_logo_white"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/name_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Enter your name..."
+            android:inputType="textMultiLine"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="1. How many planets are there in our solar system?" />
+
+        <RadioGroup
+            android:id="@+id/question1_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/question1_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eight"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                android:id="@+id/question1_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nine"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                android:id="@+id/question1_ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ten"
+                android:textAppearance="?android:textAppearanceSmall" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="2. What planet do you currently live in?" />
+
+        <RadioGroup
+            android:id="@+id/question2_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/question2_mars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mars"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                android:id="@+id/question2_earth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earth"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                android:id="@+id/question2_venus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venus"
+                android:textAppearance="?android:textAppearanceSmall" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="3. what is the name of the smallest planet in the solar system?" />
+
+        <RadioGroup
+            android:id="@+id/question3_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/question3_mercury"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mercury"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                android:id="@+id/question3_pluto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pluto"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                android:id="@+id/question3_earth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earth"
+                android:textAppearance="?android:textAppearanceSmall" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="4. what is the name of the largest planet in the solar system?" />
+
+        <RadioGroup
+            android:id="@+id/question4_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/question4_earth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earth"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                android:id="@+id/question4_uranus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uranus"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                android:id="@+id/question4_jupiter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jupiter"
+                android:textAppearance="?android:textAppearanceSmall" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="5. what is the name of the the third planet from the sun" />
+
+        <RadioGroup
+            android:id="@+id/question5_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/question5_venus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venus"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                android:id="@+id/question5_earth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earth"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                android:id="@+id/question5_mars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mars"
+                android:textAppearance="?android:textAppearanceSmall" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="6. How old is the solar system?" />
+
+        <RadioGroup
+            android:id="@+id/question6_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/question6_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4billion"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                android:id="@+id/question6_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5billion"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                android:id="@+id/question6_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10billion"
+                android:textAppearance="?android:textAppearanceSmall" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/grade_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:onClick="showGrade"
+                android:text="Grade Me!" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
